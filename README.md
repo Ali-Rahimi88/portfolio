@@ -1,16 +1,46 @@
-# React + Vite
+# Personal Portfolio — Ali Akbar Rahimi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://portfolio-wa9n.onrender.com
 
-## React Compiler
+## Framework
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React (Vite)
 
-## Expanding the ESLint configuration
+## Setup and Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+2. Install dependencies:
+   npm install
+3. Start the development server:
+   npm run dev
+4. Open http://localhost:5173 in your browser
+
+## Build for Production
+
+npm run build
+
+## Features
+
+- Three pages: Home, About, and Contact
+- React Router for client-side navigation
+- Contact form with client-side validation
+- Dark mode toggle with localStorage persistence
+- Fully responsive — mobile and desktop
+- Lighthouse 100 on Performance, Accessibility, Best Practices, and SEO
+
+## Project Structure
+
+src/
+├── components/
+│   └── Navbar.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   └── Contact.jsx
+├── App.jsx
+├── main.jsx
+└── styles.css
